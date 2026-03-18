@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SISM Souvenir Shop & Categories</title>
+<style>
+  body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: #f7f7f9; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #74bef7;
+  }
+  li {
+    float: left;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(225, 226, 176);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color:
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e2a3a3;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: rgb(233, 149, 188);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #8b0448;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .content {
+    padding: 24px;
+  }
+  h1 { 
+    margin-bottom: 16px; 
+  }
+  
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: white; 
+    border-radius: 10px; 
+    padding: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    transition: transform 0.1s ease-in-out;
+  }
+  .card:hover { 
+    transform: translateY(-2px); 
+  }
+  .card h2 { 
+    margin: 0 0 8px; 
+    font-size: 1.2rem; 
+  }
+  .card p { 
+    margin: 0 0 12px; 
+    color: #555; 
+  }
+  .card a { 
+    display: inline-block; 
+    text-decoration: none; 
+    color: white; 
+    background: #2563eb; 
+    padding: 8px 12px; 
+    border-radius: 6px; 
+  }
+
+
+  footer { 
+    margin-top: 28px; 
+    padding: 20px;
+    color: #777; 
+    font-size: .9rem; 
+    text-align: center;
+  }
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffffff;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+	<img src="logo.png"> 
+</div>
+
+
+<ul>
+  <li><a href="#home">SISM-Souvenir Shop</a></li>
+  </li>
+</ul>
+
+<img src="souvenir.jpg" alt="SISM-Souvenir Shop" width="10000" height="2000">
+
+<div class="video-container">
+  <video autoplay loop muted playsinline style="display: block; margin: 20px auto; max-width: 80%; border-radius: 15px;">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+<div class="content">
+  <h1>Categories</h1>
+  <div class="grid">
+    <article class="card">
+      <h2>Stationery</h2>
+      <p>Pens, notebooks, sticky notes, and more.</p>
+      <a href="stationary.html">stationery View </a>
+    </article>
+ 
+    <article class="card">
+      <h2>Clothes</h2>
+      <p>T‑shirts, Polo shirt, cardigan jacket, and more</p>
+      <a href="clothes 1.html">View Clothes</a>
+    </article>
+ 
+    <article class="card">
+      <h2>Daily Products</h2>
+      <p>Shampoo, sanitary pad, laundry bag, and blanket etc.</p>
+      <a href="Daily Products 1.html">View Daily Products</a>
+    </article>
+
+    <article class="card">
+      <h2>Uniform</h2>
+      <p>Semi-Formal, Formal, and PE etc</p>
+       <a href="uniform 1.html">View uniform</a>
+    </article>
+ 
+    <article class="card">
+      <h2>Accessory</h2>
+      <p>Cap, House band, swimming cap and more</p>
+      <a href="accessory 1.html">View Accessory</a>
+    </article>
+  </div>
+</div>
+
+
+<footer>
+  <p>&copy; SISM-Souvenir shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

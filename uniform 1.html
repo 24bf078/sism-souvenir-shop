@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uniform List</title>
+<style>
+   
+    body { 
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 24px; 
+        background: #f7f7f9; 
+    }
+
+ 
+    .back-btn { 
+        display: inline-block; 
+        margin-bottom: 30px; 
+        padding: 10px 15px; 
+        background: #777; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 5px; 
+    }
+    .back-btn:hover { 
+        background: #555; 
+    }
+
+  
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 30px; 
+        max-width: 900px; 
+        margin: 0 auto; 
+    }
+
+ 
+    .item-box {
+        text-align: center;
+        background: white; 
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+
+    .item-box img {
+        width: 100%; 
+        height: 300px; 
+        object-fit: cover; 
+        border-radius: 8px; 
+    }
+
+  
+    .item-box h2 {
+        margin-top: 15px;
+        margin-bottom: 0;
+        color: #333;
+        font-size: 24px;
+    }
+</style>
+</head>
+<body>
+
+   
+    <a href="main page.html" class="back-btn">← Back</a>
+
+  
+    <div class="grid-container">
+        
+   
+        <div class="item-box">
+            <img src="semi formal.jpg" alt="Uniform 1">
+            <h2>Semi-Formal</h2>
+        </div>
+
+
+        <div class="item-box">
+            <img src="formal.jpg" alt="Uniform 2">
+            <h2>Formal</h2>
+        </div>
+
+       
+        <div class="item-box">
+            <img src="house jersey.jpg" alt="Uniform 3">
+            <h2>House Jersey</h2>
+        </div>
+
+     
+        <div class="item-box">
+            <img src="pe.jpg" alt="Uniform 4">
+            <h2>PE Kit</h2>
+        </div>
+        
+    </div>
+
+</body>
+</html>
